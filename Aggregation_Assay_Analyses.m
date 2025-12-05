@@ -2,7 +2,7 @@
 image = imread('/Users/elena_1/Desktop/PHD/Gfi1ab/aggregationAssay/07092023/RFP-agg1.2_w1Red.TIF');
 
 % Define thresholds
-contrast_threshold = 300; % Contrast threshold for detecting structures
+contrast_threshold = 300; % Contrast threshold for detecting structures - should be based on specificc threshold you set with controls!!
 maximalradius = 100;       % Maximum radius for visualizing circles
 min_area_threshold = 40;   % Minimum area threshold for filtering small structures
 
